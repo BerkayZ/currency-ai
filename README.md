@@ -1,3 +1,11 @@
+# Project Disclaimer
+
+**Note: This project was developed approximately 2 years ago as an early exploration into time series forecasting and cryptocurrency prediction.**
+- The current implementation uses random train/test splitting, which creates data leakage in time series contexts
+- Scalers are refit on test data, causing inconsistency between training and prediction phases
+- The model treats individual data points as sequences rather than using proper sequential windows
+
+
 ## Intro
 This project is a research endeavor, and it is important to note that the outcomes may not be guaranteed at 100%. It is strongly advised **not to execute trades **solely based on the results derived from this project.
 
